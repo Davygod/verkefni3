@@ -1,0 +1,38 @@
+.container {
+    max-width: 70em;
+    margin: auto;
+    margin-top: 3em;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width: 37.5em) {
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+}
+// fartölvur
+@media screen and (min-width: 60em) {
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+}

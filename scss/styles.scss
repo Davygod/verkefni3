@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+}
+
+.mybutton {
+    background: #ff7777;
+    font-size: 0.75em;
+}
+.card {
+//   @include bradius5;
+    background-color: #fff;
+    border-radius: -5px 10px 10 px;
+    padding: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.stretch {
+    display: grid;
+    align-items: stretch;
+} 
+
+@import 'layout';
